@@ -34,7 +34,7 @@ def line(katz_line)
   if katz_line.length == 0
     puts "The line is currently empty."
   elsif katz_line.length > 0
-  katz_line.each do |key, value|
+  katz_line.each do |name|
  binding.pry
     end
   end
