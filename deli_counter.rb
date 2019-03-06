@@ -36,7 +36,7 @@ def line(katz_line)
   elsif katz_line.length > 0
   katz_line.each_with_index do |name, number|
     number += 1
-  puts "The line is currently: #{value}. #{katz_line}"
+  puts "The line is currently: #{value}.#{katz_line}"
     end
   end
 end
