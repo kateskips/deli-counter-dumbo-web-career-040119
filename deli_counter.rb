@@ -35,7 +35,7 @@ def line(katz_line)
     puts "The line is currently empty."
   elsif katz_line.length > 0
   katz_line.each do |key, value|
-  puts "The line is currently: #{value}#{katz_line}"
+ binding.pry
     end
   end
 end
