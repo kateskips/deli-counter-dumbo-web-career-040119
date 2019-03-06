@@ -36,7 +36,6 @@ def line(katz_line)
   elsif katz_line.length > 0
   katz_line.each_with_index do |key, value|
     value += 1
-  
   end
  end
 end
