@@ -37,5 +37,6 @@ def line(katz_line)
   katz_line.each_with_index do |key, value|
     value += 1
   end
+  puts "The line is currently: #{value}. #{katz_line.index(key)}"
  end
 end
