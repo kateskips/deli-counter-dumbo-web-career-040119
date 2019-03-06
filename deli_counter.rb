@@ -37,7 +37,7 @@ def line(katz_line)
     elsif katz_line.length > 0
   katz_line.each_with_index do |name, index|
   the_line.push("#{index+1}. #{name}")
-      puts "The line is currently: #{the_line.join(" ")}"
     end
+      puts "The line is currently: #{the_line.join(" ")}"
   end
 end
