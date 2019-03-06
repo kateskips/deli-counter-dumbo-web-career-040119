@@ -36,6 +36,6 @@ def line(katz_line)
   if katz_line.length == 0
     puts "The line is currently empty."
   elsif katz_line.length > 0
-  puts "The line is currently: #{number}.#{katz_line}"
+  katz_line.each_with_index |key, value|
  end
 end
