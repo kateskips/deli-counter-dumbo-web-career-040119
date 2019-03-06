@@ -39,6 +39,5 @@ def line(katz_line)
   the_line.push("#{index+1}. #{name}")
   end
     puts "The line is currently: #{the_line.join(" ")}"
-    end
   end
 end
