@@ -31,8 +31,6 @@ end
 
 
 def line(katz_line)
-  number = 0
-  number +=1
   if katz_line.length == 0
     puts "The line is currently empty."
   elsif katz_line.length > 0
